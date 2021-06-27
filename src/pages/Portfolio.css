@@ -1,0 +1,41 @@
+.project {
+    display: flex;
+}
+
+/* .heroImage {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    background: url("./assests/pexels-fauxels-3184454\ \(1\).jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.introText {
+    background-color: rgba(0, 0, 0, 0.425);
+    color:white;
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.techSectionTit{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    background-color:gray;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-four {
+    height: 700px;
+}
+
+.imgcontainer {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+} */

@@ -1,4 +1,4 @@
-import React form "react"
+import React from "react"
 
 
 function Footer() {
@@ -6,35 +6,35 @@ function Footer() {
 
     return (
 
-<section id="contact" class="contact">
+<section id="contact" className="contact">
 
-      <div class="container fluid">
-        <div class="section-title text-center">
-          <h1 class="p-4" id="contact">Contact Me</h1>
+      <div className="container fluid">
+        <div className="section-title text-center">
+          <h1 className="p-4" id="contact">Contact Me</h1>
           </div>
         </div>
         
         
-        <form class="d-flex flex-column px-4" action="mailto:brittanyplummer@gmail.com?subject=contact me&amp;" method="post" enctype="text/plain">
+        <form className="d-flex flex-column px-4" action="mailto:brittanyplummer@gmail.com?subject=contact me&amp;" method="post" encType="text/plain">
 
           Name
           <br/>
-          <input class="form-control" type="text" name="name" placeholder="Your Name"/>
+          <input className="form-control" type="text" name="name" placeholder="Your Name"/>
           <br/>
           Email
           <br/>
-          <input class="form-control" type="text" name="mail"  placeholder="Your Email"/>
+          <input className="form-control" type="text" name="mail"  placeholder="Your Email"/>
           <br/>
          
           
           Message
           <br/>
-          <textarea class="form-control" type="text" name="message" size="50" placeholder="Message">
+          <textarea className="form-control" type="text" name="message" size="50" placeholder="Message">
           </textarea>
           <br/>
           <br/>
-          <input class="btn btn-dark mb-2" type="submit" value="Send"/>
-          <input class="btn btn-dark mb-2" type="reset" value="Reset"/>
+          <input className="btn btn-dark mb-2" type="submit" value="Send"/>
+          <input className="btn btn-dark mb-2" type="reset" value="Reset"/>
 
           </form>
 

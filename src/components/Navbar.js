@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Navbar() {
+function Navbar() {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,9 +12,9 @@ export function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <a className="nav-link active" aria-current="page" href="#About-Me">About Me</a>
-              <a className="nav-link active" aria-current="page" href="#Project">Project</a>
-              <a className="nav-link active" aria-current="page" href="#contact">Contact</a>
+              <a className="nav-link active" aria-current="page" href="/about">About Me</a>
+              <a className="nav-link active" aria-current="page" href="/portfolio">Portfolio</a>
+              <a className="nav-link active" aria-current="page" href="/resume">Resume</a>
             </div>
           </div>
         </div>
@@ -24,3 +24,5 @@ export function Navbar() {
       </nav>
     )
 }
+
+export default Navbar
