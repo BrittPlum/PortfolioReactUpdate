@@ -34,7 +34,7 @@ function Content() {
           </div>
               </div>
               <div className="col text-center">
-                <img className="rounded-circle m-3" src="assests/pexels-pixabay-459335.jpg" alt="self picture" width="300" height="400"/>
+                <img className="rounded-circle m-3" src={ process.env.PUBLIC_URL + '/assests/pexels-pixabay-459335.jpg'} alt="self picture" width="300" height="400"/>
                </div>
             </div>
           </div>

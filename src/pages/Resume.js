@@ -8,7 +8,7 @@ function Resume() {
 <div>
     <Header />
     <div className="resumeContainer">
-        <iframe className="resume" src="/assests/resume.pdf"/>
+        <iframe className="resume" src= {process.env.PUBLIC_URL + '/assests/resume.pdf'} />
     </div>
     <Footer />
 </div>
